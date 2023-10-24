@@ -1,0 +1,75 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+.row {
+  display: flex;
+}
+
+.cell {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.cell:last-child {
+  border-right: none;
+}
+
+.codigo {
+  flex-basis: 70px;
+}
+
+.nome {
+  flex-basis: 200px;
+}
+
+.qtd {
+  flex-basis: 100px;
+}
+
+.data {
+  flex-basis: 100px;
+}
+
+.hora {
+  flex-basis: 80px;
+}
+
+.metodo {
+  flex-basis: 100px;
+}
+
+.valor {
+  flex-basis: 100px;
+}
+
+/*.loader {*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    height: 0;*/
+/*    box-sizing: border-box;*/
+/*    border: 1px solid #009933; !* Apenas para fins de demonstração *!*/
+/*    animation: load 2.5s forwards;*/
+/*}*/
+/*@keyframes load {*/
+/*    0% {*/
+/*        height: 0;*/
+/*    }*/
+/*    100% {*/
+/*        height: var(--altura);*/
+/*    }*/
+/*}*/
+
+/*@keyframes load {*/
+/*    0% {*/
+/*        height: 0;*/
+/*    }*/
+/*    100% {*/
+/*        height: ${altura};*/
+/*    }*/
+/*}*/
+
+
+
